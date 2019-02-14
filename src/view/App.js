@@ -61,7 +61,7 @@ class App extends Component {
     
     return (
       <>
-        <button className='add-button' onClick={() => {this.toggleFormDisplay()}} >+<span className='btn-text'>Add</span></button>
+        <button className='add-button' onClick={() => {this.toggleFormDisplay()}} ><i className="fas fa-plus"></i><span className='btn-text'>Add</span></button>
         <Table toggleFormDisplay={this.toggleFormDisplay} items={items} loadData={this.loadData} />
         {isFormActive ? 
         <CampaignForm

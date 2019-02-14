@@ -3,11 +3,12 @@
     background-color: #e7e7e7;
     display: inline-block;
     width: 300px;
-    border: 1px solid gray;
+	border: 1px solid gray;
+	border-radius: .5em;
 	padding: 20px;
 	position: absolute;
 	right: 256px;
-	top: 38px;
+	top: 48px;
 }
 
 input {

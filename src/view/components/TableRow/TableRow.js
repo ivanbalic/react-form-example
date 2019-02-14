@@ -19,7 +19,7 @@ const TableRow = ({item, index, toggleFormDisplay, loadData}) => {
             </td>
             <td>{`$${budget}`}</td>
             <td>
-                <i className="fas fa-edit" onClick={() => {toggleFormDisplay(name, status, budget, index)}}></i>
+                <i className="fas fa-edit edit-icon" onClick={() => {toggleFormDisplay(name, status, budget, index)}}></i>
             </td>
         </tr>
     );
